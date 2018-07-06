@@ -6,7 +6,8 @@ usage step:
 cd ./odom_ws
 
 2.mkdir src
-and mv  <calib_odom>(the file path of the "calib_odom") ./
+mv  <calib_odom>(the file path of the "calib_odom") ./
+
 cd ..
 
 3. catkin_init_workspace
@@ -19,9 +20,7 @@ cd ..
 
 7.then uncompress the bag file
 
-8. rosrun rviz rivz
-set the fix_frame as odom
-and Add three tpic:odom_path_pub,calib_path_pub,scan_path_pub,and change the color whatever you like
+8. rosrun rviz rivz set the fix_frame as odom and add three tpic:odom_path_pub,calib_path_pub,scan_path_pub,and change the color whatever you like
 
 9.goto the odom_ws/bag,uncompress the bag file
 and execute rosbag play --clock odom.bag
