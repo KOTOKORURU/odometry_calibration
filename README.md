@@ -32,3 +32,6 @@ and execute: rosbag play --clock odom.bag
 you can open a terminal and public an topic:rostopic pub /calib_flag std_msgs/Empty "{}"
 
 the calibrated trajectory will gained as well the calibration matrix
+
+final result:
+![image](https://github.com/KOTOKORURU/odometry_calibration/blob/master/IMG_0024.JPG)
