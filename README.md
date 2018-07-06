@@ -1,5 +1,5 @@
 # odometry_calibration
-using direct linear method to calibrate the odometry estimation, by sloving A^T *A x = A^T *b by Cholesky decompose
+using direct linear method to calibrate the odometry estimation, by sloving A^T *A x = A^T *b with Cholesky decompose
 
 usage step: 
 1.mkdir odom_ws
