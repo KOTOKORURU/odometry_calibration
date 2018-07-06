@@ -20,7 +20,8 @@ cd ..
 
 7.then uncompress the bag file
 
-8. rosrun rviz rivz set the fix_frame as odom and add three tpic:odom_path_pub,calib_path_pub,scan_path_pub,and change the color whatever you like
+8. rosrun rviz rivz 
+set the fix_frame as odom and add three tpic:odom_path_pub,calib_path_pub,scan_path_pub,and change the color whatever you like
 
 9.goto the odom_ws/bag,uncompress the bag file
 and execute rosbag play --clock odom.bag
