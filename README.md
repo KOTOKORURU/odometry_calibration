@@ -24,7 +24,7 @@ cd ..
 set the fix_frame as odom and add three tpic:odom_path_pub,calib_path_pub,scan_path_pub,and change the color whatever you like
 
 9.goto the odom_ws/bag,uncompress the bag file
-and execute rosbag play --clock odom.bag
+and execute: rosbag play --clock odom.bag
 
 10.and you will see two  trajectory(one from odometry,one from scan)
 
